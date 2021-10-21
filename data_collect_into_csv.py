@@ -18,7 +18,7 @@ def data_collect(start_num, end_num):
             html_text = str(soup.find_all('p'))
 
             # 태그 제거
-            tags = ['<br/>', '<p>', '</p>']
+            tags = ['<br/>', '<p>', '</p>', '\r', '\n', '\xa0', '&lt', '<strong>', '</strong>', '&gt']
             for i in range(len(tags)):
                 html_text = html_text.replace(tags[i],"").strip()
         
