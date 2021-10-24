@@ -38,3 +38,5 @@ def data_collect(start_num, end_num):
     now = str(datetime.datetime.now())
     now_only_date = now[:10].replace('-','')
     df.to_csv(now_only_date + "_data.csv", mode='w')
+
+data_collect(30509, 30513)
