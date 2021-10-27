@@ -45,7 +45,7 @@ GUI framework - default is Toga
 
 
 
-## 2. Packaging
+## 2). Packaging
 
 ```
 (beeware-venv) C:\...>briefcase create
@@ -83,7 +83,7 @@ Using app template: https://github.com/beeware/briefcase-android-gradle-template
 [helloworld] Application created.
 ```
 
-## 3. Building application
+## 3). Building application
 
 * Compiling. Binary compilation to be run in the targeted platform
 
@@ -105,7 +105,7 @@ BUILD SUCCESSFUL in 1m 1s
 
 
 
-## 4. Building installer
+## 4). Building installer
 
 ```
 (beeware-venv) C:\...>briefcase package
@@ -117,7 +117,7 @@ BUILD SUCCESSFUL in 1m 1s
 
 
 
-## 5. Update
+## 5). Update
 
 ```
 # when code is changed
@@ -179,7 +179,7 @@ GUI framework - default is Toga
 
 
 
-## 2. Packaging
+## 2). Packaging
 
 ```
 (beeware-venv) C:\...>briefcase create android
@@ -200,7 +200,7 @@ Using app template: https://github.com/beeware/briefcase-android-gradle-template
 
 
 
-## 3. Building application
+## 3). Building application
 
 * Compiling. Binary compilation to be run in the targeted platform
 
@@ -216,7 +216,7 @@ BUILD SUCCESSFUL in 1m 1s
 
 
 
-## 4. Run app on virtual device
+## 4). Run app on virtual device
 
 ```
 (beeware-venv) C:\...>briefcase run android
@@ -230,7 +230,7 @@ Select device:
 
 
 
-## 5. Update
+## 5). Update
 
 ```
 # when code is changed
@@ -262,7 +262,7 @@ Installing src/helloworld...
 (beeware-venv)C:\...>briefcase run
 ```
 
-## 6. Updating dependencies
+## 6). Updating dependencies
 
 * pyproject.toml indicates information as below
 
