@@ -3,17 +3,21 @@
 This project aims to anylize the trend in dental market by collecting information on the internet and show trending words as well as the word's preference.
 
 
+
+
 The project flow is as below.
 1. information collection
-2. data processing and NLP
 3. output with visualization
-4. run on mobile application(optional)
+4. run on mobile application(Beeware and Kivy)
+
 
 
 Tools and libs
--Jupyter notebook(anaconda3)
--Python 3.x
--R
--beautifulsoup4
--sklearn
--pandas
+
+* Jupyter notebook(anaconda3)
+* Python 3.x
+* R
+* beautifulsoup4
+* pandas
+* Kivy
+* Beeware
