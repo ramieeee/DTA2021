@@ -1,3 +1,7 @@
+### The project has been suspended due to personal issues.
+
+
+
 #Dental trend analysis project by Terrick and Ramieeee
 
 This project aims to anylize the trend in dental market by collecting information on the internet and show trending words as well as the word's preference.
